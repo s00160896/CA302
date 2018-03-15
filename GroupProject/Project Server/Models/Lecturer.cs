@@ -9,6 +9,7 @@ namespace Project_Server.Models
 {
     public class Lecturer
     {
+        [Key]
         public int ID { get; set; }
 
         [Required]

@@ -8,6 +8,7 @@ namespace Project_Server.Models
 {
     public class Student
     {
+        [Key]
         public int ID { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }

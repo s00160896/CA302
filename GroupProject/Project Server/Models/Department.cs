@@ -9,7 +9,7 @@ namespace Project_Server.Models
 {
     public class Department
     {
-
+        [Key]
         public int DepartmentID { get; set; }
 
         [StringLength(50, MinimumLength = 3)]

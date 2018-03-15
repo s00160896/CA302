@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -9,7 +10,7 @@ namespace Project_Server.Models
     { A, B, C, D, F }
     public class Enrollment
     {
-        
+        [Key]
         public int EnrollmentID { get; set; }
         public int ModuleID { get; set; }
         public int StudentID { get; set; }
